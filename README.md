@@ -6,4 +6,4 @@ There are three panels in this app. The first is an **About** screen giving the 
 
 [App Link](https://nyyadav18.shinyapps.io/gss2021only/)
 
-This assignment took me about 10 hours I want to say, but probably longer it's all a blur now.
+This assignment took me about 10 hours I want to say, but it was probably quite a bit longer, it's all a blur now.
