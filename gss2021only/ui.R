@@ -10,9 +10,6 @@
 library(shiny)
 library(tidyverse)
 
-#data_2021 <- data_2021 <- read.csv("~/INFO201/ps6repo/data/gss2021.csv")
-#smaller_data <- select(data_2021, NATENVIR, RELIG, IMMLIMIT, SEXNOW1)
-
 # Define UI for application that draws a histogram
 fluidPage(
 

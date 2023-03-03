@@ -14,7 +14,7 @@ library(tidyverse)
 # Define server logic required to draw a histogram
 function(input, output, session) {
   
-  data_2021 <- read.csv("~/INFO201/ps6repo/data/gss2021.csv")
+  data_2021 <- read.csv("gss2021.csv")
   smaller_data <- select(data_2021, NATENVIR, RELIG, IMMLIMIT, SEXNOW1)
   
   data1 <- reactive({
@@ -74,9 +74,7 @@ function(input, output, session) {
   
   filteredData <- reactive({
     check_for <- which(input$column == names(variable_key))
-    print(check_for)
     col_name <- variable_key[[check_for]]
-    print(col_name)
     factor(smaller_data[, col_name])
   })
   
